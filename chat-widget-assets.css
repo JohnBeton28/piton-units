@@ -1,0 +1,41 @@
+/* Piton Units - Chat Widget Assets v2.5 (LIVE) */
+
+/* 1. Branding: Goud & Diepblauw */
+.chat-bubble {
+    background-color: #A0813C !important;
+    border: 2px solid #003B49 !important;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3) !important;
+}
+
+/* Zorg dat het icoontje wit is */
+.chat-bubble .icon {
+    fill: #ffffff !important;
+}
+
+/* 2. Header Styling */
+.chat-header {
+    background-color: #003B49 !important;
+    color: #ffffff !important;
+    font-family: sans-serif !important;
+}
+
+/* 3. Knoppen styling */
+button[type="submit"], .submit-button {
+    background-color: #A0813C !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 4px !important;
+}
+
+/* 4. Stealth Mode: Verberg 'Powered by HighLevel' */
+.agency-branding, .legal-text-row {
+    display: none !important;
+}
+
+/* 5. WIL JE DE WIDGET UITZETTEN? */
+/* Haal de /* en */ weg bij de regels hieronder: */
+/*
+#piton-chat-wrapper {
+    display: none !important;
+}
+*/
